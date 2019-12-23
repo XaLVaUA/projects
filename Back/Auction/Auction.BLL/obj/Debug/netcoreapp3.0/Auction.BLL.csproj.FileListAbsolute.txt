@@ -1,0 +1,11 @@
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\bin\Debug\netcoreapp3.0\Auction.DAL.dll
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\obj\Debug\netcoreapp3.0\Auction.BLL.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\obj\Debug\netcoreapp3.0\Auction.BLL.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\obj\Debug\netcoreapp3.0\Auction.BLL.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\bin\Debug\netcoreapp3.0\Auction.BLL.deps.json
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\bin\Debug\netcoreapp3.0\Auction.BLL.dll
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\bin\Debug\netcoreapp3.0\Auction.BLL.pdb
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\bin\Debug\netcoreapp3.0\Auction.DAL.pdb
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\obj\Debug\netcoreapp3.0\Auction.BLL.csproj.CopyComplete
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\obj\Debug\netcoreapp3.0\Auction.BLL.dll
+D:\soft.src\c#\vs19\Auction\Auction\Auction.BLL\obj\Debug\netcoreapp3.0\Auction.BLL.pdb

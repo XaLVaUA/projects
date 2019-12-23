@@ -1,0 +1,8 @@
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\bin\Debug\netcoreapp3.0\Auction.DAL.deps.json
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\bin\Debug\netcoreapp3.0\Auction.DAL.dll
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\obj\Debug\netcoreapp3.0\Auction.DAL.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\obj\Debug\netcoreapp3.0\Auction.DAL.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\obj\Debug\netcoreapp3.0\Auction.DAL.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\bin\Debug\netcoreapp3.0\Auction.DAL.pdb
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\obj\Debug\netcoreapp3.0\Auction.DAL.dll
+D:\soft.src\c#\vs19\Auction\Auction\Auction.DAL\obj\Debug\netcoreapp3.0\Auction.DAL.pdb
