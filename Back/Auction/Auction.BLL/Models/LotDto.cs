@@ -10,6 +10,8 @@ namespace Auction.BLL.Models
 
         public string Description { get; set; }
 
+        public string UserName { get; set; }
+
         public ICollection<BetDto> Bets { get; set; }
     }
 }

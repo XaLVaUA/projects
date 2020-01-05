@@ -8,8 +8,8 @@
 
         public int LotId { get; set; }
 
-        public virtual Lot Lot { get; set; }
+        public string UserName { get; set; }
 
-        public virtual ApplicationUser User { get; set; }
+        public virtual Lot Lot { get; set; }
     }
 }

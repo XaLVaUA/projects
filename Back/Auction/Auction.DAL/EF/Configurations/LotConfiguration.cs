@@ -11,7 +11,8 @@ namespace Auction.DAL.EF.Configurations
             builder
                 .HasMany(l => l.Bets)
                 .WithOne(b => b.Lot)
-                .HasForeignKey(b => b.LotId);
+                .HasForeignKey(b => b.LotId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

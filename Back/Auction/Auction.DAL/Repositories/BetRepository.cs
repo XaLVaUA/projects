@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Auction.DAL.EF;
 using Auction.DAL.Interfaces.Repositories;
 using Auction.DAL.Models;
@@ -24,9 +25,21 @@ namespace Auction.DAL.Repositories
             return _context.Bets.Find(id);
         }
 
+        public async Task<Bet> GetAsync(int id)
+        {
+            var result = await _context.Bets.FindAsync(id);
+            return result;
+        }
+
         public Bet Create(Bet item)
         {
             return _context.Bets.Add(item).Entity;
+        }
+
+        public async Task<Bet> CreateAsync(Bet item)
+        {
+            var result = await _context.Bets.AddAsync(item);
+            return result.Entity;
         }
 
         public Bet Update(Bet item)

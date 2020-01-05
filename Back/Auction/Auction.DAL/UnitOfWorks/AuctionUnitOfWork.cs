@@ -1,5 +1,7 @@
 ﻿using Auction.DAL.EF;
+using Auction.DAL.Interfaces.Repositories;
 using Auction.DAL.Interfaces.UnitOfWorks;
+using Auction.DAL.Models;
 using Auction.DAL.Repositories;
 
 namespace Auction.DAL.UnitOfWorks
@@ -12,7 +14,7 @@ namespace Auction.DAL.UnitOfWorks
 
         private BetRepository _betRepository;
 
-        public LotRepository LotRepository
+        public IRepository<Lot> LotRepository
         {
             get
             {
@@ -25,7 +27,7 @@ namespace Auction.DAL.UnitOfWorks
             }
         }
 
-        public BetRepository BetRepository
+        public IRepository<Bet> BetRepository
         {
             get
             {
