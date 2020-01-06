@@ -28,6 +28,16 @@ namespace Auction.BLL.Services
             return _mapper.Map<IEnumerable<LotDto>>(lots);
         }
 
+        public IEnumerable<LotDto> GetPage(int pageNumber, int pageElementCount)
+        {
+            var lots = _uow.LotRepository.GetAll()
+                .Skip((pageNumber - 1) * pageElementCount)
+                .Take(pageElementCount)
+                .ToList();
+
+            return _mapper.Map<IEnumerable<LotDto>>(lots);
+        }
+
         public LotDto Get(int id)
         {
             var lot = _uow.LotRepository.Get(id);

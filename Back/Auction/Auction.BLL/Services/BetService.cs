@@ -31,7 +31,9 @@ namespace Auction.BLL.Services
 
         public IEnumerable<BetDto> GetAllByLotId(int lotId)
         {
-            var bets = _uow.BetRepository.GetAll().Where(b => b.LotId == lotId).ToList();
+            var bets = _uow.BetRepository.GetAll()
+                .Where(b => b.LotId == lotId)
+                .ToList();
 
             return _mapper.Map<IEnumerable<BetDto>>(bets);
         }

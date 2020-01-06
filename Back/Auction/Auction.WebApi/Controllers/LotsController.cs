@@ -24,9 +24,18 @@ namespace Auction.WebApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllLots()
+        public IActionResult GetAllLots(int? pageNumber, int? pageElementCount)
         {
-            var lotDtos = _lotService.GetAll();
+            IEnumerable<LotDto> lotDtos;
+
+            if (pageNumber.HasValue && pageElementCount.HasValue)
+            {
+                lotDtos = _lotService.GetPage(pageNumber.Value, pageElementCount.Value);
+            }
+            else
+            {
+                lotDtos = _lotService.GetAll();
+            }
 
             return Ok(_mapper.Map<IEnumerable<LotViewModel>>(lotDtos));
         }
