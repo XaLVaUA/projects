@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Auction.DAL.EF;
 using Auction.DAL.Interfaces.Repositories;
 using Auction.DAL.Models;
@@ -15,7 +16,7 @@ namespace Auction.DAL.Repositories
         }
 
 
-        public IEnumerable<Lot> GetAll()
+        public IQueryable<Lot> GetAll()
         {
             return _context.Lots;
         }

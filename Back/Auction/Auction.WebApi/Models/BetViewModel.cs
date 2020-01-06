@@ -1,4 +1,6 @@
-﻿namespace Auction.WebApi.Models
+﻿using System;
+
+namespace Auction.WebApi.Models
 {
     public class BetViewModel
     {
@@ -9,6 +11,8 @@
         public int? LotId { get; set; }
 
         public string UserName { get; set; }
+
+        public DateTime Date { get; set; }
 
         public LotViewModel Lot { get; set; }
     }

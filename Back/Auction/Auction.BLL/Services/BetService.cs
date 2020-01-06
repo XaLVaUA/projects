@@ -29,6 +29,13 @@ namespace Auction.BLL.Services
             return _mapper.Map<IEnumerable<BetDto>>(bets);
         }
 
+        public IEnumerable<BetDto> GetAllByLotId(int lotId)
+        {
+            var bets = _uow.BetRepository.GetAll().Where(b => b.LotId == lotId).ToList();
+
+            return _mapper.Map<IEnumerable<BetDto>>(bets);
+        }
+
         public BetDto Get(int id)
         {
             var bet = _uow.BetRepository.Get(id);
@@ -43,13 +50,21 @@ namespace Auction.BLL.Services
                 return null;
             }
 
-            if (_uow.LotRepository.Get((int) item.LotId) == null)
+            var lot = _uow.LotRepository.Get((int) item.LotId);
+            if (lot == null)
+            {
+                return null;
+            }
+
+            if (item.Value < lot.CurrentBet)
             {
                 return null;
             }
 
             var bet = _mapper.Map<Bet>(item);
             bet = _uow.BetRepository.Create(bet);
+            lot.CurrentBet = bet.Value;
+            _uow.LotRepository.Update(lot);
             _uow.Save();
 
             return _mapper.Map<BetDto>(bet);

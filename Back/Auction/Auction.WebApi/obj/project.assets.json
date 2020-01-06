@@ -9149,11 +9149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
+      "projectUniqueName": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
       "projectName": "Auction.WebApi",
-      "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
+      "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
       "packagesPath": "C:\\Users\\yaroslav\\.nuget\\packages\\",
-      "outputPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\obj\\",
+      "outputPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9172,8 +9172,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj": {
-              "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj"
+            "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj": {
+              "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj"
             }
           }
         }

@@ -41,7 +41,7 @@ namespace Auction.WebApi.Controllers
                 return BadRequest();
             }
 
-            return Ok();
+            return NoContent();
         }
 
         [HttpPost("token")]
@@ -75,7 +75,8 @@ namespace Auction.WebApi.Controllers
                 new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
-                    expiration = token.ValidTo
+                    expiration = token.ValidTo,
+                    userName = user.UserName
                 }
             );
         }

@@ -1,4 +1,6 @@
-﻿namespace Auction.DAL.Models
+﻿using System;
+
+namespace Auction.DAL.Models
 {
     public class Bet
     {
@@ -9,6 +11,8 @@
         public int LotId { get; set; }
 
         public string UserName { get; set; }
+
+        public DateTime Date { get; set; }
 
         public virtual Lot Lot { get; set; }
     }

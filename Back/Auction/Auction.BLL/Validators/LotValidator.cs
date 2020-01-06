@@ -1,4 +1,5 @@
-﻿using Auction.BLL.Models;
+﻿using System;
+using Auction.BLL.Models;
 
 namespace Auction.BLL.Validators
 {

@@ -1,4 +1,6 @@
-﻿namespace Auction.BLL.Models
+﻿using System;
+
+namespace Auction.BLL.Models
 {
     public class BetDto
     {
@@ -9,6 +11,8 @@
         public int? LotId { get; set; }
 
         public string UserName { get; set; }
+
+        public DateTime Date { get; set; }
 
         public LotDto Lot { get; set; }
     }

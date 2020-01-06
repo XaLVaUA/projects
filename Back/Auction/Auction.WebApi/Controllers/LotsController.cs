@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Security.Claims;
 using Auction.BLL.Interfaces.Services;
 using Auction.BLL.Models;
@@ -22,7 +23,6 @@ namespace Auction.WebApi.Controllers
             _mapper = mapper;
         }
 
-        [Authorize]
         [HttpGet]
         public IActionResult GetAllLots()
         {
@@ -50,6 +50,7 @@ namespace Auction.WebApi.Controllers
         {
             var lotDto = _mapper.Map<LotDto>(lotViewModel);
             lotDto.UserName = User.Identity.Name;
+            lotDto.Date = DateTime.Now;
             lotDto = _lotService.Create(lotDto);
 
             if (lotDto == null)

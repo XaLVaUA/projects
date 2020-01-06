@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj": {}
+    "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj": {
+    "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj",
+        "projectUniqueName": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj",
         "projectName": "Auction.BLL",
-        "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj",
+        "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj",
         "packagesPath": "C:\\Users\\yaroslav\\.nuget\\packages\\",
-        "outputPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\obj\\",
+        "outputPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj": {
-                "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj"
+              "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj": {
+                "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj": {
+    "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
+        "projectUniqueName": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
         "projectName": "Auction.DAL",
-        "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
+        "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
         "packagesPath": "C:\\Users\\yaroslav\\.nuget\\packages\\",
-        "outputPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\obj\\",
+        "outputPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -146,14 +146,14 @@
         }
       }
     },
-    "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj": {
+    "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
+        "projectUniqueName": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
         "projectName": "Auction.WebApi",
-        "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
+        "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\Auction.WebApi.csproj",
         "packagesPath": "C:\\Users\\yaroslav\\.nuget\\packages\\",
-        "outputPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.WebApi\\obj\\",
+        "outputPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -172,8 +172,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj": {
-                "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj"
+              "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj": {
+                "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.BLL\\Auction.BLL.csproj"
               }
             }
           }

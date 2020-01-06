@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Auction.DAL.EF;
 using Auction.DAL.Interfaces.Repositories;
@@ -15,7 +16,7 @@ namespace Auction.DAL.Repositories
             _context = context;
         }
 
-        public IEnumerable<Bet> GetAll()
+        public IQueryable<Bet> GetAll()
         {
             return _context.Bets;
         }

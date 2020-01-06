@@ -23,9 +23,18 @@ namespace Auction.WebApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllBets()
+        public IActionResult GetAllBets([FromQuery] int? lotId)
         {
-            var betDtos = _betService.GetAll();
+            IEnumerable<BetDto> betDtos;
+
+            if (lotId.HasValue)
+            {
+                betDtos = _betService.GetAllByLotId(lotId.Value);
+            }
+            else
+            {
+                betDtos = _betService.GetAll();
+            }
 
             return Ok(_mapper.Map<IEnumerable<BetViewModel>>(betDtos));
         }
@@ -49,6 +58,7 @@ namespace Auction.WebApi.Controllers
         {
             var betDto = _mapper.Map<BetDto>(betViewModel);
             betDto.UserName = User.Identity.Name;
+            betDto.Date = DateTime.Now;
             betDto = _betService.Create(betDto);
 
             if (betDto == null)

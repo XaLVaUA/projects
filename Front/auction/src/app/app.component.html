@@ -1,0 +1,8 @@
+<nav>
+    <a mat-button routerLink="/lots">Lots</a>
+    <a *ngIf="this.userService.checkTokenExpired()" mat-button routerLink="/login">Login</a>
+    <a *ngIf="this.userService.checkTokenExpired()" mat-button routerLink="/registration">Registration</a>
+    <button *ngIf="!this.userService.checkTokenExpired()" mat-button (click)="onLogout()">Logout</button>
+</nav>
+<hr>
+<router-outlet></router-outlet>

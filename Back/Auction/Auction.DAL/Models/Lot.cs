@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Auction.DAL.Models
 {
@@ -10,7 +11,11 @@ namespace Auction.DAL.Models
 
         public string Description { get; set; }
 
+        public decimal CurrentBet { get; set; }
+
         public string UserName { get; set; }
+
+        public DateTime Date { get; set; }
 
         public virtual ICollection<Bet> Bets { get; set; }
     }

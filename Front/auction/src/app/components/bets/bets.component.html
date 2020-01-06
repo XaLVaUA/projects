@@ -1,0 +1,17 @@
+<div *ngIf="bets">
+    <mat-card class="bet-card" *ngFor="let bet of bets">
+        <mat-card-header>
+            <mat-card-title>
+                {{bet.userName}}
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{bet.date}}
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                Make bet of {{bet.value}} value
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>

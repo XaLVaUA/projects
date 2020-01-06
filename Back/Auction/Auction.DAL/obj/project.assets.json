@@ -7097,11 +7097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
+      "projectUniqueName": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
       "projectName": "Auction.DAL",
-      "projectPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
+      "projectPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\Auction.DAL.csproj",
       "packagesPath": "C:\\Users\\yaroslav\\.nuget\\packages\\",
-      "outputPath": "D:\\soft.src\\c#\\vs19\\Auction\\Auction\\Auction.DAL\\obj\\",
+      "outputPath": "D:\\soft.src\\csharp\\vs19\\Auction\\Auction\\Auction.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
