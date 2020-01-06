@@ -1,0 +1,11 @@
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\bin\Debug\netcoreapp3.0\Task4_Core.exe
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\bin\Debug\netcoreapp3.0\Task4_Core.deps.json
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\bin\Debug\netcoreapp3.0\Task4_Core.runtimeconfig.json
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\bin\Debug\netcoreapp3.0\Task4_Core.runtimeconfig.dev.json
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\bin\Debug\netcoreapp3.0\Task4_Core.dll
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\bin\Debug\netcoreapp3.0\Task4_Core.pdb
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\obj\Debug\netcoreapp3.0\Task4_Core.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\obj\Debug\netcoreapp3.0\Task4_Core.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\obj\Debug\netcoreapp3.0\Task4_Core.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\obj\Debug\netcoreapp3.0\Task4_Core.dll
+D:\soft.src\c#\vs19\Task4_Core\Task4_Core\Task4_Core\obj\Debug\netcoreapp3.0\Task4_Core.pdb

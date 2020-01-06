@@ -1,0 +1,8 @@
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\bin\Debug\netcoreapp3.0\Task6.DAL.deps.json
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\bin\Debug\netcoreapp3.0\Task6.DAL.dll
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\obj\Debug\netcoreapp3.0\Task6.DAL.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\obj\Debug\netcoreapp3.0\Task6.DAL.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\obj\Debug\netcoreapp3.0\Task6.DAL.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\bin\Debug\netcoreapp3.0\Task6.DAL.pdb
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\obj\Debug\netcoreapp3.0\Task6.DAL.dll
+D:\soft.src\c#\vs19\Task6\Task6\Task6.DAL\obj\Debug\netcoreapp3.0\Task6.DAL.pdb

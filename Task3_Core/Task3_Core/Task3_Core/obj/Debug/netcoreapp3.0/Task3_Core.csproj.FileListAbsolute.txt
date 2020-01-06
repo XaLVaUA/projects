@@ -1,0 +1,11 @@
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\bin\Debug\netcoreapp3.0\Task3_Core.exe
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\bin\Debug\netcoreapp3.0\Task3_Core.deps.json
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\bin\Debug\netcoreapp3.0\Task3_Core.runtimeconfig.json
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\bin\Debug\netcoreapp3.0\Task3_Core.runtimeconfig.dev.json
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\bin\Debug\netcoreapp3.0\Task3_Core.dll
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\bin\Debug\netcoreapp3.0\Task3_Core.pdb
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\obj\Debug\netcoreapp3.0\Task3_Core.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\obj\Debug\netcoreapp3.0\Task3_Core.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\obj\Debug\netcoreapp3.0\Task3_Core.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\obj\Debug\netcoreapp3.0\Task3_Core.dll
+D:\soft.src\c#\vs19\Task3_Core\Task3_Core\Task3_Core\obj\Debug\netcoreapp3.0\Task3_Core.pdb

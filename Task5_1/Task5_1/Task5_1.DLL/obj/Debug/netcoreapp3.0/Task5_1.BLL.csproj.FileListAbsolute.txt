@@ -1,0 +1,11 @@
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\bin\Debug\netcoreapp3.0\Task5_1.BLL.deps.json
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\bin\Debug\netcoreapp3.0\Task5_1.BLL.dll
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\bin\Debug\netcoreapp3.0\Task5_1.BLL.pdb
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\bin\Debug\netcoreapp3.0\Task5_1.DAL.dll
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\bin\Debug\netcoreapp3.0\Task5_1.DAL.pdb
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\obj\Debug\netcoreapp3.0\Task5_1.BLL.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\obj\Debug\netcoreapp3.0\Task5_1.BLL.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\obj\Debug\netcoreapp3.0\Task5_1.BLL.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\obj\Debug\netcoreapp3.0\Task5_1.BLL.csproj.CopyComplete
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\obj\Debug\netcoreapp3.0\Task5_1.BLL.dll
+D:\soft.src\c#\vs19\Task5_1\Task5_1\Task5_1.DLL\obj\Debug\netcoreapp3.0\Task5_1.BLL.pdb

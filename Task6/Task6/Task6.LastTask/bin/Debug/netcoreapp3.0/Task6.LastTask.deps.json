@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Task6.LastTask/1.0.0": {
+        "runtime": {
+          "Task6.LastTask.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task6.LastTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

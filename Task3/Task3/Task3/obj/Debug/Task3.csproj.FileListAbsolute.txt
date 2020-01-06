@@ -1,0 +1,6 @@
+D:\soft.src\c#\vs19\Task3\Task3\Task3\bin\Debug\Task3.exe.config
+D:\soft.src\c#\vs19\Task3\Task3\Task3\bin\Debug\Task3.exe
+D:\soft.src\c#\vs19\Task3\Task3\Task3\bin\Debug\Task3.pdb
+D:\soft.src\c#\vs19\Task3\Task3\Task3\obj\Debug\Task3.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Task3\Task3\Task3\obj\Debug\Task3.exe
+D:\soft.src\c#\vs19\Task3\Task3\Task3\obj\Debug\Task3.pdb

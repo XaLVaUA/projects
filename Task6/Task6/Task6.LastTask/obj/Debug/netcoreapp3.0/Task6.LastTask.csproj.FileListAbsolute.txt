@@ -1,0 +1,11 @@
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\bin\Debug\netcoreapp3.0\Task6.LastTask.exe
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\bin\Debug\netcoreapp3.0\Task6.LastTask.deps.json
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\bin\Debug\netcoreapp3.0\Task6.LastTask.runtimeconfig.json
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\bin\Debug\netcoreapp3.0\Task6.LastTask.runtimeconfig.dev.json
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\bin\Debug\netcoreapp3.0\Task6.LastTask.dll
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\bin\Debug\netcoreapp3.0\Task6.LastTask.pdb
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\obj\Debug\netcoreapp3.0\Task6.LastTask.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\obj\Debug\netcoreapp3.0\Task6.LastTask.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\obj\Debug\netcoreapp3.0\Task6.LastTask.dll
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\obj\Debug\netcoreapp3.0\Task6.LastTask.pdb
+D:\soft.src\c#\vs19\Task6\Task6\Task6.LastTask\obj\Debug\netcoreapp3.0\Task6.LastTask.csprojAssemblyReference.cache

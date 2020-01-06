@@ -1,0 +1,8 @@
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\bin\Debug\netcoreapp3.0\Task5_2.DAL.deps.json
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\bin\Debug\netcoreapp3.0\Task5_2.DAL.dll
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\bin\Debug\netcoreapp3.0\Task5_2.DAL.pdb
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\obj\Debug\netcoreapp3.0\Task5_2.DAL.csprojAssemblyReference.cache
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\obj\Debug\netcoreapp3.0\Task5_2.DAL.AssemblyInfoInputs.cache
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\obj\Debug\netcoreapp3.0\Task5_2.DAL.AssemblyInfo.cs
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\obj\Debug\netcoreapp3.0\Task5_2.DAL.dll
+D:\soft.src\c#\vs19\Task5_1\Task5_2\Task5_2.DAL\obj\Debug\netcoreapp3.0\Task5_2.DAL.pdb
