@@ -22,7 +22,7 @@
                 </p>
             </mat-card-content>
             <mat-card-actions>
-                <button mat-button (click)="onCreateLot(name.value, description.value, startValue.value)">Create Lot</button>
+                <button mat-raised-button (click)="onCreateLot(name.value, description.value, startValue.value)">Create Lot</button>
             </mat-card-actions>
             <mat-card-footer>
                 {{message}}
@@ -31,16 +31,26 @@
     </div>
     <br>
     <div>
-        <div style="margin-left: 50%">
+        <div style="margin-left: 50%;">
             Lots
+            <br>
+        </div>
+        <div style="margin-left: 46%;">
+            <button mat-raised-button (click)="onPrevPage()">PrevPage</button>
+            {{pageNumber}}
+            <button mat-raised-button (click)="onNextPage()">NextPage</button>
+        </div>
+        <div style="margin-left: 47%;">
+            <input type="text" #search>
+            <button mat-raised-button (click)="onSearch(search.value)">Search</button>            
         </div>
         <mat-nav-list class="lot-list">
-            <div *ngFor="let lot of lots">
-                <a mat-list-item href="lots/{{lot.id}}" > 
+            <div *ngFor="let lot of lotsToShow">
+                <a mat-list-item style="background-color:beige;" href="lots/{{lot.id}}" > 
                     <span matLine>{{lot.name}}</span>
                     <span>By {{lot.userName}}</span>
                 </a>
-                <button *ngIf="this.userService.getUserName() === lot.userName" mat-button (click)="onDeleteLot(lot.id)">Delete</button>
+                <button *ngIf="this.userService.getUserName() === lot.userName" mat-raised-button (click)="onDeleteLot(lot.id)">Delete</button>
             </div>
         </mat-nav-list>
     </div>

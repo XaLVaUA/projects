@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Lot } from 'src/app/models/lot';
 import { Token } from '../../models/token';
@@ -15,9 +15,12 @@ export class LotService {
     private http: HttpClient
   ) { }
 
-  getLots(): Observable<Array<Lot>> {
+  getLots(pageNumber: number, pageElementCount: number): Observable<Array<Lot>> {
     const url = this.lotsApiUri;
-    return this.http.get<Array<Lot>>(url);
+    const params = new HttpParams()
+      .set('pageNumber', pageNumber.toString())
+      .set('pageElementCount', pageElementCount.toString());
+    return this.http.get<Array<Lot>>(url, { params });
   }
 
   getLotById(id: number): Observable<Lot> {
